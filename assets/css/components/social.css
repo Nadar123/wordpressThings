@@ -1,0 +1,117 @@
+.icons-lists-wrapper {
+  background-color: rgba(0, 20, 40, 0.02);
+  padding: 7rem 0 3rem 18px;
+}
+
+.icons-lists-wrapper .text-contact {
+  padding-bottom: 1.5rem;
+}
+
+.icons-lists-wrapper .text-contact h3 {
+  color: #2183e6;
+}
+
+@media only screen and (max-width: 480px) {
+  .icons-lists-wrapper .text-contact h3 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 2rem;
+  }
+}
+
+.icons-lists-wrapper .icon-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 65%;
+}
+
+@media only screen and (max-width: 480px) {
+  .icons-lists-wrapper .icon-content {
+    width: 85%;
+  }
+}
+
+.icons-lists-wrapper .icon-content .image-wrapper {
+  background-color: rgba(0, 20, 40, 0.05);
+  border-radius: 50%;
+  margin: 13px 17px 12px 0;
+  position: relative;
+  height: 54px;
+  width: 54px;
+}
+
+.icons-lists-wrapper .icon-content .image-wrapper a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.icons-lists-wrapper .list {
+  width: 100%;
+}
+
+.icons-lists-wrapper .list .list-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+  .icons-lists-wrapper .list .list-content {
+    display: inline-block;
+  }
+}
+
+.icons-lists-wrapper .list .list-content .title-list {
+  padding: 0rem 1rem 1rem 1rem;
+  max-height: 15rem;
+  min-height: 15rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .icons-lists-wrapper .list .list-content .title-list {
+    max-height: 18rem;
+    min-height: auto;
+  }
+}
+
+.icons-lists-wrapper .list .list-content .title-list h5 {
+  color: rgba(0, 20, 40, 0.87);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  padding-top: 1rem;
+}
+
+.icons-lists-wrapper .list .list-content .title-list:nth-child(6) {
+  transform: translate(0px, -20px);
+}
+
+@media only screen and (max-width: 480px) {
+  .icons-lists-wrapper .list .list-content .title-list:nth-child(6) {
+    transform: translate(0px, 0px);
+  }
+}
+
+.icons-lists-wrapper .list .list-content .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-lists-wrapper .list .list-content .content a {
+  color: rgba(0, 20, 40, 0.6);
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.icons-lists-wrapper .list .list-content .content a:hover {
+  color: rgba(0, 20, 40, 0.87);
+}
