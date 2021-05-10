@@ -1,9 +1,10 @@
 <?php
-
-function header_menu() {
-  register_nav_menu('haederMenu', 'Header-Menu-location');
+function ls_setup_theme () {
+  register_nav_menu('main_menu', __('Main Menu', 'lionhead') );
 }
-add_action('after_setup_theme', 'header_menu');
+
+add_action('after_setup_theme', 'ls_setup_theme');
+
 
 function cc_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';
